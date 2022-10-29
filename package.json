@@ -1,0 +1,19 @@
+{
+  "name": "themovieapi_js",
+  "version": "1.0.0",
+  "description": "Esta es una página que consume la api rest themoviedb",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cecilio-Cauich/themovieapi_js.git"
+  },
+  "author": "cecilio cauich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cecilio-Cauich/themovieapi_js/issues"
+  },
+  "homepage": "https://github.com/Cecilio-Cauich/themovieapi_js#readme"
+}
