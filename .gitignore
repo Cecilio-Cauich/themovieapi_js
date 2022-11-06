@@ -105,3 +105,5 @@ dist
 
 # Private keys (API KEY)
 src/mykey.js
+# folder
+/.vscode
