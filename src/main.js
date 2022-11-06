@@ -1,1 +1,0 @@
-alert("Welcome"+API_KEY);
