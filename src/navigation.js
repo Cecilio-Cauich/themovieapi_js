@@ -95,7 +95,6 @@ function searchPage(){
 function movieDetailsPage(){
     console.log('Movie!!!');
 
-    console.log('Estamos en la pagina de category')
     headerSection.classList.add('header-container--long');
     // headerSection.style.background = '';
     arrowBtn.classList.remove('inactive');
@@ -109,7 +108,8 @@ function movieDetailsPage(){
     genericSection.classList.add('inactive');
     movieDetailSection.classList.remove('inactive');
 
-    
+    const [_,movieId]  = location.hash.split('=');
+    getMovieByID(movieId);
 }
 
 function catergoryPage(){
